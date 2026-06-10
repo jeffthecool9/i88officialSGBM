@@ -13,9 +13,9 @@ const rise = {
 }
 
 const stats = [
-  { value: '$300',  label: 'Top Up $100'  },
-  { value: '20%',   label: 'Harian·$288'  },
-  { value: '$5K',   label: 'Pas Mingguan' },
+  { value: '$300',  label: 'Dapat $300 · Top Up $100'       },
+  { value: '20%',   label: 'Hadiah Harian · Hingga $288'    },
+  { value: '$5K',   label: 'Pas Mingguan · Menang $5K'      },
 ]
 
 const ArrowRight = () => (
@@ -56,19 +56,24 @@ export default function Hero() {
           animate="visible"
         >
           {/* Headline */}
-          <motion.h1
-            variants={rise}
-            className="font-display leading-[0.88] tracking-wide mb-3"
-            style={{ fontSize: 'clamp(2.2rem, 10vw, 4.8rem)' }}
-          >
-            <span className="text-gold-outline">WORLD CUP 2026</span>
-            <br />
-            <span className="text-gold-3d">35,306 TELAH SERTAI</span>
+          <motion.h1 variants={rise} className="font-display tracking-wide mb-3">
+            <span
+              className="text-gold-outline block leading-snug"
+              style={{ fontSize: 'clamp(1rem, 4.5vw, 2.2rem)' }}
+            >FIFA WORLD CUP 2026</span>
+            <span
+              className="text-white/55 block uppercase"
+              style={{ fontSize: 'clamp(0.65rem, 2.8vw, 1.2rem)', letterSpacing: '0.22em', marginTop: '0.15em' }}
+            >Menang Sehingga</span>
+            <span
+              className="text-gold-3d block"
+              style={{ fontSize: 'clamp(2.6rem, 11vw, 5.5rem)', lineHeight: 0.88 }}
+            >SGD 100,000</span>
           </motion.h1>
 
           {/* Sub */}
           <motion.p variants={rise} className="font-body text-body-premium text-sm leading-relaxed mb-4 md:max-w-md">
-            Peluang menang sehingga SGD 100,000 — Golden Boot Showdown menanti.
+            35,306 pemain telah sertai — sertai Golden Boot Showdown sekarang.
           </motion.p>
 
           {/* CTA */}
