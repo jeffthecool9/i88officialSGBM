@@ -49,8 +49,8 @@ const steps = [
   },
   {
     num: '03',
-    label: 'DAPATKAN 188 FS',
-    detail: 'Dikreditkan selepas deposit layak',
+    label: 'KUMPUL GANJARAN ANDA',
+    detail: 'Menang sehingga SGD 100,000',
     bg:     'linear-gradient(150deg, #4338CA 0%, #6366F1 45%, #818CF8 100%)',
     ledge:  'rgba(67,56,202,0.85)',
     badge:  'bg-white/20 border-white/30 text-white',
