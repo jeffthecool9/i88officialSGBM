@@ -13,9 +13,9 @@ const rise = {
 }
 
 const stats = [
-  { value: '188',   label: 'FS'          },
-  { value: '64',    label: 'Perlawanan'  },
-  { value: '24H',   label: 'Pengeluaran' },
+  { value: '$300',  label: 'Top Up $100'  },
+  { value: '20%',   label: 'Harian·$288'  },
+  { value: '$5K',   label: 'Pas Mingguan' },
 ]
 
 const ArrowRight = () => (
@@ -63,12 +63,12 @@ export default function Hero() {
           >
             <span className="text-gold-outline">WORLD CUP 2026</span>
             <br />
-            <span className="text-gold-3d">DAPATKAN 188 FS</span>
+            <span className="text-gold-3d">35,306 TELAH SERTAI</span>
           </motion.h1>
 
           {/* Sub */}
           <motion.p variants={rise} className="font-body text-body-premium text-sm leading-relaxed mb-4 md:max-w-md">
-            Daftar hari ini dan terima 188 FS — semua 64 perlawanan diliputi.
+            Peluang menang sehingga SGD 100,000 — Golden Boot Showdown menanti.
           </motion.p>
 
           {/* CTA */}
