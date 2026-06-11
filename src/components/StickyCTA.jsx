@@ -25,7 +25,7 @@ export default function StickyCTA() {
         {/* CTA */}
         <PremiumButton
           size="sm"
-          onClick={() => { trackEvent('sticky_cta_click', { section: 'sticky_bar' }); window.open('https://www.palacehub8.com/qm4KWKwm', '_blank') }}
+          onClick={() => { trackEvent('sticky_cta_click', { section: 'sticky_bar' }); window.open('https://www.palacehub8.com/EjjrBGfD', '_blank') }}
           wrapperClassName="flex-1 sm:flex-none"
           className="w-full"
         >
