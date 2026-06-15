@@ -11,8 +11,8 @@ export default function App() {
       <HowToJoin />
       {/* 18+ notice */}
       <p className="text-center font-body text-ice/20 text-xs px-6 py-6 leading-relaxed pb-24">
-        18+ sahaja. Judi dengan bertanggungjawab. i88 menyokong perjudian bertanggungjawab.
-        Talian bantuan SG: 1800-6-668-668 · Talian bantuan MY: 1-800-88-3151
+       Anda akan dialihkan secara automatik ke laman web rasmi. Sila jangan risau sekiranya nama jenama kelihatan berbeza, kerana perkara ini adalah disebabkan oleh keperluan polisi.
+
       </p>
       <StickyCTA />
     </div>
